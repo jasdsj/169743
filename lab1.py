@@ -132,7 +132,7 @@ else:
 
 for x in listy:
     print(x)
-"""
+
 listy = ['a', 4, 5, 6, [1, 2, 3], 5.6, 1]
 
 for x in range(0, len(listy)):
@@ -157,3 +157,14 @@ while licznik != len(listy):
             print('{} - {} = 0'.format(a, liczby[licznik]))
             break
         licznik += 1
+        """
+
+liczby = [1, 2, 2, 2, 4, 5, 6, 2]
+licznik = 0
+while licznik != len(liczby):
+    if liczby[licznik] == 2:
+        liczby.pop(licznik)
+        continue
+    licznik += 1
+else:
+    print(liczby)
