@@ -50,3 +50,28 @@ print(lista)
 #zrobić sortwonie
 lista.sort()
 print(lista)
+
+slownik = {'a': 2, 1: 2, 4: 'ab', 1: 3}
+print(slownik)
+print(slownik[4])
+slownik['klucz'] = 'wartosc'
+print(slownik)
+slownik.pop('klucz')
+print(slownik)
+print(slownik.keys())
+print(slownik.values())
+
+print('a=%(zm)d' % {'zm': 12})
+print('a={}, b={}'.format(12, 12))
+
+napis = 'a={}, b={}'
+print(napis.format(12, 12))
+
+#if warunek1:
+    # instrukcja1
+    # instrukcja2
+#elif warunek2:
+    # instrukcja1
+    # instrukcja2
+#else:
+    # instrukcja1
