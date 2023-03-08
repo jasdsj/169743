@@ -135,5 +135,5 @@ for x in listy:
 """
 listy = ['a', 4, 5, 6, [1, 2, 3], 5.6, 1]
 
-for x in range(0, 6, 1):
+for x in range(0, len(listy)):
     print(listy[x])
