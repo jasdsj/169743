@@ -75,3 +75,29 @@ print(napis.format(12, 12))
     # instrukcja2
 #else:
     # instrukcja1
+
+a = input('podaj a: ')
+b = input('podaj b: ')
+print(a)
+print(b)
+print(type(a))
+print(type(b))
+a = int(a)
+b = int(b)
+print(type(a))
+print(type(b))
+
+if a > b:
+    print(a)
+elif b > a:
+    print(b)
+else:
+    print('a = b')
+
+a = input('podaj a: ')
+b = input('podaj b: ')
+
+if a==b:
+    print('liczby są równe')
+else:
+    print('liczby są różne')
