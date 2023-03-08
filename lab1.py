@@ -137,3 +137,23 @@ listy = ['a', 4, 5, 6, [1, 2, 3], 5.6, 1]
 
 for x in range(0, len(listy)):
     print(listy[x])
+
+#while
+    #instrukcja1
+    #instrukcja2
+#else
+    #instrukcja1
+
+licznik = 0
+while licznik != len(listy):
+    print(listy[licznik])
+    licznik += 1
+
+    liczby = [3 ,4 ,5 ,1 ,7, 8]
+    a = int(input('podaj a: '))
+    licznik = 0
+    while licznik != len(liczby):
+        if a - liczby[licznik] == 0:
+            print('{} - {} = 0'.format(a, liczby[licznik]))
+            break
+        licznik += 1
