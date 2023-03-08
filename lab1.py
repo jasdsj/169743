@@ -1,4 +1,4 @@
-a = 'napis'
+"""
 print(a)
 b = 5
 c = 5.5
@@ -22,7 +22,7 @@ print(b)
 b += 2
 print(b)
 
-listy = ['a', 4 ,5, 6, [1, 2, 3], 5.6]
+
 print(listy)
 listy.append(4)
 print(listy)
@@ -101,3 +101,39 @@ if a==b:
     print('liczby są równe')
 else:
     print('liczby są różne')
+
+a = input('podaj a: ')
+b = input('podaj b: ')
+c = input('podaj c: ')
+d = input('podaj d: ')
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+
+if (a > b) & (c > d):
+    print('a większe od b i c większe od d')
+else:
+    print('a mniejsze od b lub c mniejsze od d')
+
+
+#for element in sekwecja:
+ #instrukcja1
+ #instrukcja2
+#else:
+ #instrukcja1
+ #instrukcja2
+
+for x in range (1, 6, 1):
+     print(x)
+else:
+    print('koniec pętli for')
+
+
+for x in listy:
+    print(x)
+"""
+listy = ['a', 4, 5, 6, [1, 2, 3], 5.6, 1]
+
+for x in range(0, 6, 1):
+    print(listy[x])
